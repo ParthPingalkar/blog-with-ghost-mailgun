@@ -1,0 +1,40 @@
+{
+  "database": {
+    "client": "mysql",
+    "connection": {
+      "host": "127.0.0.1",
+      "port": 3306,
+      "database": "bitnami_ghost",
+      "user": "bn_ghost",
+      "password": "0e96b9178fe47c04a17ae1d858ff484454d4cb9419f5011b330cc6bd1457d3ca",
+      "ssl": false
+    }
+  },
+  "url": "http://3.108.228.173",
+  "server": {
+    "port": 2368,
+    "host": "0.0.0.0"
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "logging": {
+    "transports": [
+      "file"
+    ]
+  },
+  "process": "local",
+  "paths": {
+    "contentPath": "/opt/bitnami/ghost/content"
+  }
+}
